@@ -1,11 +1,7 @@
-doctype html
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Professional website
-    link(rel="stylesheet", href="style.css")
-  body
-    h1 Hello 
-    .icon_pushpin
+extends _component/layout/layout
+block basic-config
+  -
+    let myTitleForGoogleSearch = "Tyre solutions";
+    let myDescriptionForGoogleSearch = "Paint your car..";
+block content
+  h1 comes after
