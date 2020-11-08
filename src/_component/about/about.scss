@@ -1,0 +1,42 @@
+.about {
+  text-align: center;
+  padding: 15px 30px;
+  color: $color-black-pearl;
+
+  .line_wrapper {
+    display: inline-flex;
+    padding: 5px;
+    align-items: center;
+
+    hr {
+      width: 3em;
+    }
+  }
+
+  .cards {
+    padding: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      padding: 20px;
+      margin: 0.5rem;
+      height: 70px;
+      width: calc((100% - 2rem) / 2);
+      border-radius: 0.5rem;
+      box-shadow: rgb(214, 213, 213) 0px 6px 10px 0px;
+
+      :first-child {
+        color: $color-mariner;
+      }
+    }
+  }
+}

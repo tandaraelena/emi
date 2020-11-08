@@ -4,6 +4,11 @@
   display: flex;
   box-shadow: -1px 3px 4px -3px rgba(9, 29, 52,1);
   color: $color-black-pearl;
+  background-color: white;
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   &__menu {
     margin-right: 10px;
