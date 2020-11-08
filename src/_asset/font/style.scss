@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?27j1ju');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?27j1ju#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?27j1ju') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?27j1ju') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?27j1ju##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uav2fw');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uav2fw#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uav2fw') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uav2fw') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uav2fw##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon_automobile {
+  &:before {
+    content: $icon_automobile; 
+  }
+}
 .icon_home {
   &:before {
     content: $icon_home; 
@@ -35,6 +40,11 @@
 .icon_pencil {
   &:before {
     content: $icon_pencil; 
+  }
+}
+.icon_quill {
+  &:before {
+    content: $icon_quill; 
   }
 }
 .icon_phone {
@@ -52,9 +62,44 @@
     content: $icon_pushpin; 
   }
 }
+.icon_wrench {
+  &:before {
+    content: $icon_wrench; 
+  }
+}
+.icon_cogs {
+  &:before {
+    content: $icon_cogs; 
+  }
+}
+.icon_hammer {
+  &:before {
+    content: $icon_hammer; 
+  }
+}
+.icon_magic-wand {
+  &:before {
+    content: $icon_magic-wand; 
+  }
+}
+.icon_leaf {
+  &:before {
+    content: $icon_leaf; 
+  }
+}
+.icon_truck {
+  &:before {
+    content: $icon_truck; 
+  }
+}
 .icon_menu {
   &:before {
     content: $icon_menu; 
+  }
+}
+.icon_cancel-circle {
+  &:before {
+    content: $icon_cancel-circle; 
   }
 }
 .icon_cross {
