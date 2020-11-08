@@ -13,3 +13,13 @@ html {
 .content {
   position: relative;
 }
+
+.line_wrapper {
+  display: inline-flex;
+  padding: 5px;
+  align-items: center;
+
+  hr {
+    width: 3em;
+  }
+}
