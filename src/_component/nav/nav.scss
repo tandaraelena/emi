@@ -1,4 +1,14 @@
 .nav {
-  color: red;
-  background-color: transparent;
+  width: 100%;
+  padding: 20px;
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: -1px 3px 4px -3px rgba(9, 29, 52,1);
+  color: $color-black-pearl;
+
+  &__menu {
+    margin-right: 10px;
+  }
 }

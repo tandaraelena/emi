@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jwd0ci');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jwd0ci#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jwd0ci') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jwd0ci') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jwd0ci##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?27j1ju');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?27j1ju#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?27j1ju') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?27j1ju') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?27j1ju##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -32,9 +32,9 @@
     content: $icon_home; 
   }
 }
-.icon_pencil2 {
+.icon_pencil {
   &:before {
-    content: $icon_pencil2; 
+    content: $icon_pencil; 
   }
 }
 .icon_phone {
@@ -50,6 +50,11 @@
 .icon_pushpin {
   &:before {
     content: $icon_pushpin; 
+  }
+}
+.icon_menu {
+  &:before {
+    content: $icon_menu; 
   }
 }
 .icon_cross {
