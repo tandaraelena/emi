@@ -1,0 +1,11 @@
+-
+  const images = Array.from({length: 3}, (_,key) => `../../asset/image/masina${key}.jpg`)
+  console.log(images)
+#gallery
+.gallery
+  h1 Gallery
+  .line_wrapper
+    hr
+  each image in images
+    img(src=`${image}`)
+  
