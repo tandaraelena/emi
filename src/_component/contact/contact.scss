@@ -1,30 +1,30 @@
 .contact {
   text-align: center;
   margin-top: 15px;
+  line-height: 1.6;
 
-  div,
-  h1 {
-    margin-top: 10px;
+  div {
+    margin-top: 15px;
   }
-
-  &_button,
-  &_table {
+  
+  &_inner {
+    background-color: #f3f4f4;
+    color: #303b45;
+    margin: 10px 30px;
     display: flex;
-    justify-content: center;
-    div {
-      color: white;
+    flex-direction: column;
+    text-align: justify;
+    
+    img {
+      width: 100%;
+      height: auto;
     }
-    .icon_phone,
-    .get_directions {
-      width: 50%;
-      padding: 10px;
-      background-color: $color-black-pearl;
-      
-      a {
-        color: white;
-        text-decoration: none;
-        margin-left: 5px;
-      }
+  }
+  
+  &_inner-text {
+    padding: 5px 10px 10px;
+    a {
+      text-decoration: none;
     }
   }
 }

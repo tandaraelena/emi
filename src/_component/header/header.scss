@@ -14,5 +14,9 @@
     top: 50px;
     padding: 15px;
     color: $color-link-water;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

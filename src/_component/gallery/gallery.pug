@@ -1,7 +1,5 @@
 -
   const images = [
-    '../../asset/image/masina0.jpg',
-    '../../asset/image/masina1.jpg',
     '../../asset/image/masina2.jpg',
     '../../asset/image/masina3.jpg',
   ]
@@ -10,6 +8,7 @@
   h1 Gallery
   .line_wrapper
     hr
-  each image in images
-    img(src=`${image}`)
+  .gallery_images
+    each image in images
+      img(src=`${image}`)
   

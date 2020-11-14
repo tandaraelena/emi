@@ -13,4 +13,16 @@
   &__menu {
     margin-right: 10px;
   }
+
+  &__phone {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    padding: 5px 10px;
+    background-color: $color-blue-zodiac;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
