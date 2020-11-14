@@ -2,8 +2,8 @@
 .nav
   .nav__items
     .nav__menu(onclick="toggle()")
-      .icon_menu
-    h3 Mobile tyres
+      .icon_menu(onclick="changeClass(this)")
+    .nav__title Mobile tyres
   .nav__phone
     a(href="tel:+447522868930", target="_blank") CALL US +44-7522-868930
   #nav__links(style="display: none")
@@ -14,10 +14,13 @@
     a(href="#contact", style="background-color: #5780c1") Contact
 script.
   function toggle () {
-    var x = document.getElementById('nav__links');
-    if(x.style.display === "flex") {
-      x.style.display = "none"
+    var navLinks = document.getElementById('nav__links');
+    if(navLinks.style.display === "flex") {
+      navLinks.style.display = "none"
     } else {
-      x.style.display = "flex"
+      navLinks.style.display = "flex"
     }
+  }
+  function changeClass (x) {
+    x.classList.toggle("icon_cross")
   }
